@@ -1,0 +1,38 @@
+/*
+ *
+ *
+ *  Created on: Aug 13, 2023
+ *      Author: Elsayed Tarek
+ *
+ */
+#include<stdio.h>
+void count_ones(int x);
+int main(){
+
+	int x;
+	printf("Enter a number : ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d" ,&x);
+	count_ones(x);
+
+	return 0;
+}
+void count_ones(int x){
+	int flag ;
+	int count=0 ;
+	flag = x;
+	char B[32];
+	fflush(stdin); fflush(stdout);
+	for (int i=31 ; i>=0 ; i--){
+		B[i] = (flag%2) + '0';
+		flag /=2;
+	}
+	printf("%s" ,B);
+	for (int i =0 ; i<32 ; i++){
+		if(B[i]== '1' ){
+			count++;
+		}
+	}
+	printf("\nNumber of ones = %d" ,count);
+}
+

@@ -1,0 +1,11 @@
+LaunchTargetManager/configs/C\ function\ to\ take\ a\ number\ and\ sum\ all\ digits.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Calculate\ square\ root\ of\ number.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Count\ number\ of\ ones\ in\ binary\ function.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/configs/Return\ unique\ number\ in\ array\ with\ one\ loop.exe=org.eclipse.launchbar.core.launchTargetType.local\:Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Calculate square root of number.exe,org.eclipse.launchbar.core.descriptorType.default\:Prime Numbers between two numbers.exe,org.eclipse.launchbar.core.descriptorType.default\:C function to take a number and sum all digits.exe,org.eclipse.launchbar.core.descriptorType.default\:Return unique number in array with one loop.exe,org.eclipse.launchbar.core.descriptorType.default\:Sum numbers from 1 to 100 without loop.exe,org.eclipse.launchbar.core.descriptorType.default\:Reverse of array's elements.exe,org.eclipse.launchbar.core.descriptorType.default\:Reverse words in string.exe,org.eclipse.launchbar.core.descriptorType.default\:Count max number of ones between two zeros.exe,org.eclipse.launchbar.core.descriptorType.default\:Count the max number of ones between two zeros.exe,org.eclipse.launchbar.core.descriptorType.default\:C Function to reverse digits.exe,org.eclipse.launchbar.core.descriptorType.default\:Count number of ones in binary function.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:C\ function\ to\ take\ a\ number\ and\ sum\ all\ digits.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:C\ function\ to\ take\ a\ number\ and\ sum\ all\ digits.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
