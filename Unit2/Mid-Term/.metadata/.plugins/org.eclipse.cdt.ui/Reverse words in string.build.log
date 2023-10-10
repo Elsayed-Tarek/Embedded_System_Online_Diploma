@@ -1,0 +1,7 @@
+15:51:03 **** Incremental Build of configuration Debug for project Reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Reverse.o "..\\Reverse.c" 
+gcc -o "Reverse words in string.exe" Reverse.o 
+
+15:51:04 Build Finished. 0 errors, 0 warnings. (took 366ms)
+

@@ -1,0 +1,27 @@
+/*
+ *
+ *
+ *  Created on: Aug 13, 2023
+ *      Author: Elsayed Tarek
+ *
+ */
+#include <stdio.h>
+#include<stdlib.h>
+int max(int x);
+int main()
+{
+	int num ;
+	printf("Enter a number :");
+	scanf("%d" , &num);
+	printf("\nMax ones is %d ", max(num));
+
+	return 0;
+}
+int max(int x){
+	int count= 0;
+	while (x!=0){
+		x = (x&(x<1));
+		count++;
+	}
+	return count;
+}
