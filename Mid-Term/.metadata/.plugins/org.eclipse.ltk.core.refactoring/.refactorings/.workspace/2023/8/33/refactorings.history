@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Prime Numbers between two numbers&apos;" deleteContents="true" description="Delete resource &apos;Prime Numbers between two numbers&apos;" element1="/Prime Numbers between two numbers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1691923618889"/>&#x0A;<refactoring comment="Delete resource &apos;Count max number of ones between two zeros&apos;" deleteContents="true" description="Delete resource &apos;Count max number of ones between two zeros&apos;" element1="/Count max number of ones between two zeros" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1691934910919"/>
-</session>
