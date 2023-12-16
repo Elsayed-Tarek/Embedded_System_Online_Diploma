@@ -1,0 +1,74 @@
+/*
+ * Collision_Avoidance.c
+ *
+ *  Created on: Dec 15, 2023
+ *      Author: Elsayed Tarek
+ */
+
+#include"Collision_Avoidance.h"
+
+#include<stdio.h>
+#include<stdlib.h>
+unsigned int distance,speed,threshold = 50;
+
+
+
+
+
+//ProtoTypes
+STATE_define(waiting);
+STATE_define(driving);
+
+//Global Pointer To Function
+void (*CA_state)();
+
+
+STATE_define(CA_waiting)
+{
+	//State Action
+	CA_state_id = CA_waiting;
+	speed = 0;
+
+	//Check Event
+	(distance <= threshold) ? (CA_state = STATE(CA_waiting)) : (CA_state = STATE(CA_driving));
+	printf("waiting state : distance=%d speed=%d\n",distance,speed);
+
+
+}
+STATE_define(CA_driving)
+{
+
+	//State Action
+	CA_state_id = CA_driving;
+	speed = 30;
+
+	//Check Event
+	(distance <= threshold) ? (CA_state = STATE(CA_waiting)) : (CA_state = STATE(CA_driving));
+	printf("driving state : distance=%d speed=%d\n",distance,speed);
+
+
+
+
+
+
+}
+void setup()
+{
+	//motor_init()
+	//init SoC Modules
+	CA_state = STATE(CA_waiting);
+}
+void main()
+{
+	volatile int d ;
+	setup();
+	while (1)
+	{
+		state();
+		//delay
+		for(int d = 0 ; d < 10000 ; d++);
+	}
+
+
+}
+

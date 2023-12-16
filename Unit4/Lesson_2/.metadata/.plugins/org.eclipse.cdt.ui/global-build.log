@@ -1,0 +1,13 @@
+21:11:09 **** Incremental Build of configuration Debug for project Collision_Avoidance_V2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Ultrasonic_Sensor.o "..\\Ultrasonic_Sensor.c" 
+..\Ultrasonic_Sensor.c: In function 'generate_distance':
+..\Ultrasonic_Sensor.c:25:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o Collision_Avoidance_V2.exe Collision_Avoidance.o DC_Motor.o Ultrasonic_Sensor.o main.o 
+Info: Nothing to build for Collision_Avoidance_V2
+21:12:27 **** Incremental Build of configuration Debug for project Collision_Avoidance_V2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC_Motor.o "..\\DC_Motor.c" 
+gcc -o Collision_Avoidance_V2.exe Collision_Avoidance.o DC_Motor.o Ultrasonic_Sensor.o main.o 
